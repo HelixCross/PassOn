@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Com_Pl3c$ity.exe" version="1.0.0.8" publicKeyToken="00aa0c49c91f2b77" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Com_Pl3c$ity" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Com_Pl3c$ity.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Com_Pl3c$ity.exe" size="160176">
+      <assemblyIdentity name="Com_Pl3c$ity" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/pj2BInIMTZGLnN5lq1VUBTCaUNndWQSUKUX8khOu2o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Com_Pl3c$ity.exe.config" size="185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HMbBboYI4eon7l4q6LbumKVoZMKwgu7Zp1zdH3NxFio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lock.ico" size="27982">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YfA+qK68r8/e8TRzBgVzqSjGZ6mhSPgLbuu48obHiD0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GAMESHHD\jack" issuerKeyHash="1ac18d14308731f7610d2458646ad1c1f6c3ddf3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Qk4WAShQVzs5aWJpTXQ9Qp8AmaXuaS/SmxQvQS2D52c=</DigestValue></Reference></SignedInfo><SignatureValue>Xp0SSH3YvZaTZ+se5AjxzReNGPIZOppA7DFVs7faKXSSST6HHo2UcyEbu6LYE0HHQiyVWaf7jJQAlbvYfqSAdRCfdg1QlM7zDX1zFPEchh+oTM7m4ZGxZzDR7ZEP+VaSCP3jz/OGw31HvIJe9rxXv1yRDfaaJvUIJ03EEbKbjec=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p9hS6eKG8S3N6UQ152i3D4PLS22eGM1DgnAQ+Uii8rMMhyfGVKMsyoohIZixu6ENXZFNKTHbjmnyi34E3KylranqDjmmm8D0gaXXXv0S7MXdT6NlaFmQEm9VNhzvkGH56bfpgOZeRUPm3fitI2E/c1kl30MkbWPk/8a4iX7sHxc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="67e7832d412f149bd22f69eea599009f423d744d696269393b57502801164e42" Description="" Url=""><as:assemblyIdentity name="Com_Pl3c$ity.exe" version="1.0.0.8" publicKeyToken="00aa0c49c91f2b77" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GAMESHHD\jack</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D+TjqDyTxjNBfEOHOQdnsUfisE5HKQ0vpZFJzeO8QRk=</DigestValue></Reference></SignedInfo><SignatureValue>olz2nTNVBwLm1x1Zxx8hSMb/7KqchFunAE7ZnlJr8ee9sq92Y6wlfkkja7RKahcgsBX1B2sv1lukFo/Jjtk4+/J2ZYv8/bzVy2xXEBrSLtKieW5mlqXGlC0hML2OAcGSiEVVMbcPnL0GR8wq728ogY8pBRuAIdWw5mqWcWicAPM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p9hS6eKG8S3N6UQ152i3D4PLS22eGM1DgnAQ+Uii8rMMhyfGVKMsyoohIZixu6ENXZFNKTHbjmnyi34E3KylranqDjmmm8D0gaXXXv0S7MXdT6NlaFmQEm9VNhzvkGH56bfpgOZeRUPm3fitI2E/c1kl30MkbWPk/8a4iX7sHxc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQLIsGb93BRJZHORR1DYAuIjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoARwBBAE0ARQBTAEgASABEAFwAagBhAGMAazAeFw0xOTAxMDkyMDEzMDNaFw0yMDAxMTAwMjEzMDNaMCUxIzAhBgNVBAMeGgBHAEEATQBFAFMASABIAEQAXABqAGEAYwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCn2FLp4obxLc3pRDXnaLcPg8tLbZ4YzUOCcBD5SKLyswyHJ8ZUoyzKiiEhmLG7oQ1dkU0pMduOafKLfgTcrKWtqeoOOaabwPSBpdde/RLsxd1Po2VoWZASb1U2HO+QYfnpt+mA5l5FQ+bd+K0jYT9zWSXfQyRtY+T/xriJfuwfFwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEWHJaEYU+yJ5VKMjFROBFPFqH1xbMbO5SUGG+WikrQ1g74r3yLD+n3pEOwdMCMFZgK2yZwACXbQdE1yL+4Ffhgx9pR0zxRPo3tLFDc8MO53JDmsidevc4qxKl4qr/F1ESIhJ2FPbXo+G5FvmnrZ/4xSBZX1JIocvbYXue7nrLVN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
